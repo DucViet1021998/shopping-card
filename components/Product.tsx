@@ -64,7 +64,7 @@ function Products() {
                             variant="contained"
                             onClick={() => dispatch(addProduct(product))}
                         >
-                            Thêm vào giở hàng
+                            Thêm vào giỏ hàng
                         </Button>
                     </CardActions>
                 </Card>
