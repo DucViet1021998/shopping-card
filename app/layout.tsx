@@ -1,12 +1,11 @@
 'use client';
 
-import store from '@/components/store';
-import './globals.css';
-
 import { Provider } from 'react-redux';
+import './globals.css';
 import { PersistGate } from 'redux-persist/integration/react';
 import { persistStore } from 'redux-persist';
 
+import store from '@/components/store';
 const persist = persistStore(store);
 
 export const metadata = {
