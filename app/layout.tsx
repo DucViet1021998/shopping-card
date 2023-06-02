@@ -1,3 +1,5 @@
+'use client';
+
 import { Provider } from 'react-redux';
 import './globals.css';
 import { PersistGate } from 'redux-persist/integration/react';
